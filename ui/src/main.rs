@@ -30,7 +30,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let ui = UI::new(rx);
 
     let options = eframe::NativeOptions {
-        viewport: egui::ViewportBuilder::default().with_inner_size([320.0, 240.0]),
+        viewport: egui::ViewportBuilder::default().with_inner_size([600.0, 400.0]),
         default_theme: eframe::Theme::Light,
         ..Default::default()
     };
